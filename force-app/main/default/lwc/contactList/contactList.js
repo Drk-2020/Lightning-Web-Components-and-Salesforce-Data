@@ -1,10 +1,10 @@
 import { LightningElement, wire } from 'lwc';
 
-import FIRST_NAME from '@salesforce/schema/contact.FirstName';
+import FIRST_NAME from '@salesforce/schema/Contact.FirstName';
 
-import LAST_NAME from '@salesforce/schema/contact.LastName';
+import LAST_NAME from '@salesforce/schema/Contact.LastName';
 
-import EMAIL from '@salesforce/schema/contact.Email';
+import EMAIL from '@salesforce/schema/Contact.Email';
 
 import getcontacts from '@salesforce/apex/ContactController.getContacts';
 
