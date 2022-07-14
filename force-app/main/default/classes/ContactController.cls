@@ -5,6 +5,6 @@ public with sharing class ContactController {
           //  FROM Contact
           //  WITH SECURITY_ENFORCED];
             
-            throw new AuraHandledException('Forced error');
+            throw new AuraHandledException('Forced error')
     }
 }
